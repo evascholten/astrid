@@ -1,0 +1,78 @@
+body{
+	background-color: #ecf0f1;
+	font-family: helvetica, arial, sans-serif;
+	padding-top: 330px;
+}
+header{
+	width: 100%;
+    height: 300px;
+	background: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6b2b3eeca79a80926667ec71b01eac12&auto=format&fit=crop&w=1500&q=80) no-repeat;
+	text-align: center;
+	position: relative;
+	position: fixed;
+	top: 0;
+}
+
+h1{
+    font-size: 42px;
+    color: #fff;
+    font-weight: 100;
+    padding-top: 80px;
+}
+
+#menu{
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    background-color: rgba(0,0,0,.1);
+}
+
+#menuitems ul li{
+    display: inline;    
+    height: 51px;
+    list-style: none;
+    margin: 0 0px;
+    padding: 0px 30px 0px 30px;
+}
+
+#menuitems a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+#container{
+    padding: 20px;
+	margin-bottom: 40px;
+	background-color: #fff;
+	border-radius(4px);
+	box-shadow(0 1px 0 rgba(0,0,0,.2));
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input, #contact textarea {
+	width:50%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+    padding:10px;
+    font-family: helvetica, arial, sans-serif;
+}
+
+#contact button{
+	width:10%;
+	border:none;
+	background:#016072;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
